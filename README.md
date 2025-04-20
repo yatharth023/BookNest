@@ -1,12 +1,54 @@
-# React + Vite
+# 📚 BookNest – Book Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookNest is a sleek and functional React-based web application designed to manage your personal book collection. Users can add, search, and view books with cover previews, light/dark theme toggling, and a modern responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [View Live on Vercel](https://book-nest-rust.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Features
+
+- ✅ **Add and manage books** (Title, Author, Year, Genre)
+- 🔍 **Search** books by title or author
+- 🖼️ **Book cover previews** via Open Library API
+- ⚡ Optimized rendering using `useMemo`
+- 🔁 Fully responsive design
+- 🧠 Built with React Hooks and Context API
+- 🎨 Styled using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js (Vite)
+- **State Management**: useState, useEffect, useContext
+- **Styling**: Tailwind CSS
+- **API**: Open Library API
+- **Deployment**: Vercel
+
+---
+
+## 📂 Folder Structure
+
+src/
+├── components       
+│   └── Navbar.jsx         
+│
+├── context/
+│   └── BookContext.jsx     
+│
+├── pages/
+│   └── About.jsx 
+│   └── AddBook.jsx 
+│   └── Home.jsx 
+│   └── NotFound.jsx 
+│
+├── App.jsx                 
+├── main.jsx        
+└── index.css               
+
+---
