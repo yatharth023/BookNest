@@ -1,6 +1,6 @@
 # 📚 BookNest – Book Management App
 
-BookNest is a sleek and functional React-based web application designed to manage your personal book collection. Users can add, search, and view books with cover previews, light/dark theme toggling, and a modern responsive UI.
+BookNest is a sleek and functional React-based web application designed to manage your personal book collection. Users can add, search, and view books with cover previews, and a modern responsive UI.
 
 ---
 
