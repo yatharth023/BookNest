@@ -52,3 +52,16 @@ src/
 └── index.css               
 
 ---
+
+## 🚀 Setup Instructions
+
+1. Clone the repository ->
+    git clone https://github.com/yatharth023/BookNest.git
+    cd BookNest
+
+2. Install dependencies ->
+    npm install
+
+3. Start the development server ->
+    npm run dev
+
