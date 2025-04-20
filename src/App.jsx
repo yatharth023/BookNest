@@ -2,12 +2,12 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AddBook from "./pages/AddBook";
 import About from "./pages/About"; 
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add" element={<AddBook />} />

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+function NavBar() {
   return (
     <nav className="bg-indigo-600 text-white p-4 shadow-md">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
@@ -29,4 +29,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
